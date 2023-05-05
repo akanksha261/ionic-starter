@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-safe-area-top: 40px;
+}
+
+  ion-popover {
+    --max-width: 350px !important;
+  }
+
+  ion-title {
+    padding-inline: 5px !important;
+  }
+
+.header-ios ion-toolbar:last-of-type {
+    --min-height: 5rem;
+  }
